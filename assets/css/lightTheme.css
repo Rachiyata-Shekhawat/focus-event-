@@ -1,0 +1,17 @@
+header {
+  background-color: rgb(0, 94, 255);
+}
+
+header button {
+  border-color: white;
+  background-color: white;
+  color: black;
+}
+
+h1 {
+  color: black;
+}
+
+.shape {
+  border-color: #b00020;
+}

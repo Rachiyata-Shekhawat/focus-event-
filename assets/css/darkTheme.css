@@ -1,0 +1,18 @@
+body {
+  background-color: #1f1b24;
+}
+
+header,
+form {
+  background-color: #121212;
+}
+
+h1,
+p,
+form {
+  color: white;
+}
+
+.shape {
+  border-color: #CF6679;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Focus Event - DARK LIGHT Theme</title>
+
+  <!-- link for fav icon in title -->
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <!-- link for stylesheets -->
+  <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="" id="theme">
+  <!-- <link rel="stylesheet" type="text/css" href="assets/css/darkTheme.css"> -->
+
+</head>
+
+<body>
+  <header>
+    <button id="lightTheme" onclick="lightThemeHandler()">Light Theme</button>
+    <button id="darkTheme" onclick="darkThemeHandler()">Dark Theme</button>
+  </header>
+  <h1>Focus Event</h1>
+  <p>When you click on name input, shape of location will change as it have class "important".</p>
+  <form id="john">
+    Name: <input type="text" id="name" onfocus="foucsHandler()">
+
+    Favourite Subject: <input type="text" id="subject">
+
+    Location: <input type="text" id="location" class="important">
+
+  </form>
+</body>
+<script src="assets/js/index.js"></script>
+
+</html>
